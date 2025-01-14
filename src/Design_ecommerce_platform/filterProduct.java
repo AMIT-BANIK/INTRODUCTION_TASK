@@ -25,6 +25,7 @@ public class filterProduct {
         int minimumPrice=input.nextInt();
         System.out.print("Enter maximumPrice:");
         int maximumPrice=input.nextInt();
+        fP.filterProducts(Category);
         fP.filterProducts(minimumPrice,maximumPrice);
         fP.filterProducts(Category,minimumPrice,maximumPrice);
         fP.filterProducts(Category,minimumPrice,maximumPrice,brand);
